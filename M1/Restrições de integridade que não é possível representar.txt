@@ -1,0 +1,7 @@
+Restrição 1. "A nacionalidade duma equipa não é completamente independente das
+nacionalidades dos seus membros (pilotos e co-pilotos). Nada obriga a que todos os
+membros duma equipa sejam da mesma nacionalidade. Mas a nacionalidade da equipa tem
+que ser uma (qualquer) das nacionalidades dos seus membros."
+
+Restrição 2. "Para além disso, as equipas de carros têm um co-piloto e as de
+camiões têm um ou dois co-pilotos"

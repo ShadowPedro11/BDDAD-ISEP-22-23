@@ -1,0 +1,31 @@
+INSERT INTO Tipoveiculo values ('BK');
+INSERT INTO Tipoveiculo values ('CR');
+INSERT INTO Tipoveiculo values ('TR');
+-----------------------------------------------------------------------------------------
+INSERT INTO Prova values('2022BK',2022,'BK');
+INSERT INTO Prova values('2022CR',2022,'CR');
+INSERT INTO Prova values('2022TR',2022,'TR');
+-----------------------------------------------------------------------------------------
+INSERT INTO Equipa values('2022BK777','CORSA RACING MOTO','PORTUGAL','BK','2022BK');
+INSERT INTO Equipa values('2022BK778','SMART RACING MOTO','PORTUGAL','BK','2022BK');
+INSERT INTO Equipa values('2022CR777','CORSA RACING CAR','PORTUGAL','CR','2022CR');
+INSERT INTO Equipa values('2022CR778','SMART RACING CAR','PORTUGAL','CR','2022CR');
+INSERT INTO Equipa values('2022TR777','CORSA RACING TRUCK','PORTUGAL','TR','2022TR');
+INSERT INTO Equipa values('2022TR778','SMART RACING TRUCK','PORTUGAL','TR','2022TR');
+-----------------------------------------------------------------------------------------
+INSERT INTO Veículo values(51,'MOTO CORSA','TURBO',200,'AZEITE','BK','2022BK777');
+INSERT INTO Veículo values(52,'MOTO SMART','GHINI',199,'AZEITE VIRGEM EXTRA','BK','2022BK778');
+INSERT INTO Veículo values(53,'CAR CORSA','TURBO',200,'AZEITE','CR','2022CR777');
+INSERT INTO Carro values (2,53);
+INSERT INTO Veículo values(54,'CAR SMART','GHINI',299,'AZEITE VIRGEM EXTRA','CR','2022CR778');
+INSERT INTO Carro values (6,54);
+INSERT INTO Veículo values(55,'TRUCK CORSA','TURBO',300,'AZEITE','TR','2022TR777');
+INSERT INTO Camião values (123,77,55);
+INSERT INTO Veículo values(56,'TRUCK SMART','GHINI',399,'AZEITE VIRGEM EXTRA','TR','2022TR778');
+INSERT INTO Camião values (123,77,56);
+-----------------------------------------------------------------------------------------
+INSERT INTO "Tipo Piloto" values (11,'PILOTO');
+INSERT INTO "Tipo Piloto" values (12,'CO-PILOTO');
+-----------------------------------------------------------------------------------------
+INSERT INTO Piloto values (927641959,'1211131@isep.ipp.pt','PORTUGAL','2022CR777',11);
+INSERT INTO Piloto values (925558035,'1211151@isep.ipp.pt','PORTUGAL','2022CR778',11);
